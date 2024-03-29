@@ -2,3 +2,8 @@ html {
   height: 100%;
   width: 100%;
 }
+
+body {
+  background-color: #d5c4fd;
+  color: #000000;
+}
