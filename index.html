@@ -1,80 +1,29 @@
 <!DOCTYPE html>
-<html lang="ko-KR">
-  <!-- head: 사용자에게 보여지지 않지만 정보의 정의를 위한 공간 -->
-  
+<html lang="ko">
   <head>
-  <mata charset="utf-8">
-    <mata name= "viewport" content="width=device-width, initial-scale=1.0">
-    <mata name="title" content="아이엠 그라운드">    
-    <meta name="description" content="나의 첫 자기소개 페이지입니다.">
-    <meta name="author" content="kookmin Univ">
-    <meta name="keywords" content="자기소개, 국민대, 경영대학원">
-    <!-- open <graph protocal -->
-    <meta property="og:title" content="아이엠 그라운드"
-    <meta property="og:description" content="나의 첫 자기소개 페이지입니다."
-    <meta ptoperty="og:image" content="https://images.pexels.com/photos/2531237/pexels-photo-2531237.jpeg?auto=compress&cs=tinysrgb&w=300">
-    <link href="./style.css" rel= "stylesheet" type="text/css">
-    <style>
-        P { font-size: 10px;}
-    </style>
-    <script>
-      //alert('안녕하세요');
-      // js에서 주석처리 할 때 쓰는 //
-    </script>
-    <script src="script.js"></script>
-    </head>
-<body>
-<h1>나의 자기소개 페이지</h1>
-<h2>contents</h2>
-<h3>- 자기소개</h3>
-<h3>- 직업</h3>
-<h3>- 취미/특기</h3>
-<h2>자기소개</h2>
-<P>안녕하세요! 저는 디지털마케팅 프로그래밍 강의를 듣는 성다은입니다.</P>
-<p>여기는 두번째 문장입니다.
-
-여기는 세번째 문장입니다.
-
-여기는 네번째 문장입니다.</p>
-<p>
-  첫 문단의 첫번째 문장입니다.</br>
-  첫 문단의 두번째 문장입니다.
-</p>
-
-<!-- LIST ITEMS -->
-<H2>저녁메뉴 후보군</H2>
-<!-- <ol reversed> -->
-<ol TYPE="I" start="13"> <!--TYPE : 1(DEFAULT), A, a, I, i -->
-  <LI>치킨</LI>
-  <LI>피자</LI>
-  <LI>파스타</LI>
-</ol>
-<p>1. 치킨</p><!--이렇게 쓰면 안되요-->
-
-<h2>좋아하는 동물</h2>
-<ul>
-  <li>강아지</li>
-  <li>고양이</li>
-  <li>햄스터</li>  
-</ul>
-
-<!-- anchor-->
-<a href="https://festa.io/events/4910">등록하기</a>
-<a href="https://festa.io/events/4910" target="_blank">등록하기</a>
-<br /> <!-- /br과 br/는 같은의미-->
-<img src="./a.jpg" alt="벚꽃" width="200" />
-
-<picture>
- <source srcset="./a.jpg" media="(max-width: 480px)" />
- <source srcset="./b.jpg" media="(min-width: 481px)" />
-  <img src="./b.jpg" alt="장미" width="250" />
-</picture>
-<video width="600" height="300" controls="controls" >
-  <source src="./c.mp4" type="video/mp4" />
-</video>
-
-
-  
-</body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!-- header, main, aside, footer 순서-->
+    <header>
+      <div id="main-logo">
+        <h1>
+         <img src="b.jpg" width="70"/>
+        </h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="html_practice.html">shop</a></li>
+          <li><a href="https://www.google.com/" target="_blank">My page</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+    <h1>Hello</h1>
+    </main>
+    <aside></aside>
+    <footer></footer>
+  </body>
 </html>
-
