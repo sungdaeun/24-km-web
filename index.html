@@ -67,9 +67,52 @@
               <th>2022</th>
             </tr>
           </thead>
-          <tbody></tbody>
-          <tfoot></tfoot>
+          <tbody>
+            <tr>
+              <td>자동차</td>
+              <td>100</td>
+              <td>120</td>
+              <td>130</td>
+            </tr>
+            <tr>
+              <td>모니터</td>
+              <td>742</td>
+              <td rowspan="2">1082</td>
+              <td>769</td>
+            </tr>
+            <tr>
+              <td>에어컨</td>
+              <td>300</td>
+              <td>752</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">합계</td>
+              <td>4000</td>
+            </tr>
+          </tfoot>
         </table>
+      </section>
+      <!-- form interaction-->
+      <section>
+        <form action="/signup" method="post">
+          <p>username</p>
+          <input list="names" name="username" type="text" maxlength="10" size="10">
+          <datalist id="names">
+            <option value="johndoe"</option>
+            <option value="kookmin"</option>
+            <option value="janedoe"</option>
+          </datalist>
+          <label for="u-email">email</label>
+          <input id="u-email" name="email" type="email">
+          <label for="u-pw">password</label>
+          <input id="u-pw" name="password" type="password">
+          <label for="u-birth">birthday</label>
+          <input id="u-birth" name="birthday" type="date">
+          <input type="submit">
+          <button type="reset">초기화</button>
+        </form>
       </section>
     </main>
     <aside>
