@@ -7,3 +7,5 @@ body {
   background-color: #d5c4fd;
   color: #000000;
 }
+/* 글꼴설정 */ 
+h1,h2,h3,h4,h5,h6 { font-family: "black han sans", sans-serif;}
