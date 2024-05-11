@@ -29,7 +29,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main style="width: 640px; margin: 0 auto;">
       <section><!--큰구조들을 묶어내고 싶을 때 사용-->
         <H2>Headline</H2>
         <article id="article1"><!--반복되는 요소를 사용하고싶을때-->
@@ -123,6 +123,52 @@
           <button type="reset">초기화</button>
         </form>
       </section>
+      <style>
+        .div-square{
+          width: 100px;
+          height: 100px;
+        }
+        .sq-pd {
+          /*padding: 10px;*/
+          /*padding: 10px 20px;*/
+          /*padding: 10px 20px 30px;*/
+          padding: 10px 20px 30px 40px;
+          padding-top: 30px;
+        }
+        .sq-mg {
+          margin: 30px 20px;
+        }
+        .div-center {
+          margin: 0 auto;
+          width: 25%;
+        }
+      </style>
+      <section>  
+        <div class="div-square" style="background-color: palevioletred;">1</div>
+        <div class="div-square sq-pd" style="background-color: lightgray;">2</div>
+        <div class="div-square sq-mg" style="background-color: lightpink;" >3</div>
+        <div class="div-square div-center" style="background-color: lightskyblue;"">4</div>
+        </section>
+        <style>
+        .flex-container {
+        display: flex;
+        width: 295px;
+        height: 120px;
+        /*
+        flex-direction: row;
+        flex-wrap: nowrap;
+        */
+        flex-flow: column nowrap;
+        }
+        .flex-box {width: 100px; height:100px; text-align:center;} 
+        .bg-red {background-color: red;}
+        .bg-blue {background-color: blue;}
+        .bg-gray {background-color: gray;} </style>
+        <section class="flex-container">
+        <article class="flex-box bg-red">1</article>
+        <article class="flex-box bg-blue">2</article>
+        <article class="flex-box bg-gray">3</article>
+        </section>
     </main>
     <aside>
       <h3>가장 많이 본 뉴스</h3>
